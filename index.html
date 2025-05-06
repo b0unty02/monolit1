@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monolit</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    h1 {
+      color: #fff;
+      font-family: 'Playfair Display', serif;
+      font-size: 10vw;
+      text-align: center;
+      opacity: 0;
+      transform: scale(0.8);
+      animation: fadeInZoom 2s ease-out forwards;
+      letter-spacing: 2px;
+    }
+
+    @keyframes fadeInZoom {
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Monolit</h1>
+</body>
+</html>
